@@ -1,6 +1,20 @@
-Docker files to install Waidrin in a Container.
+Docker files to install and run Waidrin in a Container.
+
+Instructions:
+```
+# clone the repo
+https://github.com/Karlmeister/waidrin-docker.git
+
+# change to the folder where the repo was cloned
+cd waidrin-docker
+
+# build the image and run the Container
+# waidrin will run automatically at http://localhost:3000/ once the container starts up
+docker compose up --build
+```
 
 github: https://github.com/p-e-w/waidrin
+
 reddit: https://www.reddit.com/r/SillyTavernAI/comments/1lyzvqh/waidrin_a_nextgeneration_ai_roleplay_system_from/
 
 Thanks to https://www.reddit.com/user/-p-e-w-/ for this creation!
