@@ -1,0 +1,11 @@
+services:
+  waidrin:
+    build: ./
+    container_name: waidrin
+    image: waidrin:0.1
+    environment:
+      - NODE_ENV=production
+      - FORCE_COLOR=1
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
