@@ -1,9 +1,18 @@
-Docker files to install and run Waidrin in a Container.
+Docker files to containerize Waidrin installation, setup and run.
 
-Instructions:
+# Details
+
+The image building process includes:
+* A light-weight Linux Alpine distribution.
+* Installation of git, node, npm and dependencies
+* Cloning of Waidrin source code
+* Installation of Waidrin packages dependencies
+* Building Waidrin app
+
+# Installation
 ```
 # clone the repo
-https://github.com/Karlmeister/waidrin-docker.git
+git clone https://github.com/Karlmeister/waidrin-docker.git
 
 # change to the folder where the repo was cloned
 cd waidrin-docker
@@ -13,8 +22,11 @@ cd waidrin-docker
 docker compose up --build
 ```
 
-github: https://github.com/p-e-w/waidrin
+# References
+github:
+https://github.com/p-e-w/waidrin
 
-reddit: https://www.reddit.com/r/SillyTavernAI/comments/1lyzvqh/waidrin_a_nextgeneration_ai_roleplay_system_from/
+reddit:
+https://www.reddit.com/r/SillyTavernAI/comments/1lyzvqh/waidrin_a_nextgeneration_ai_roleplay_system_from/
 
 Thanks to https://www.reddit.com/user/-p-e-w-/ for this creation!
