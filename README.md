@@ -2,12 +2,13 @@ Docker files to containerize Waidrin installation, setup and run.
 
 # Details
 
-The image building process includes:
+The image and container building process includes:
 * A light-weight Linux Alpine distribution.
 * Installation of git, node, npm and dependencies
 * Cloning of Waidrin source code
 * Installation of Waidrin packages dependencies
 * Building Waidrin app
+* Launching Waidrin app each time the container is started.
 
 # Installation
 ```
